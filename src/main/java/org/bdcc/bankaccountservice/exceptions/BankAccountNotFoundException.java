@@ -1,4 +1,4 @@
-package org.sid.bankaccountservice.exceptions;
+package org.bdcc.bankaccountservice.exceptions;
 
 public class BankAccountNotFoundException extends Exception {
     public BankAccountNotFoundException(String message) {

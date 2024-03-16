@@ -1,11 +1,11 @@
-package org.sid.bankaccountservice.entities;
+package org.bdcc.bankaccountservice.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.sid.bankaccountservice.enums.AccountType;
+import org.bdcc.bankaccountservice.enums.AccountType;
 
 import java.util.Date;
 @Entity

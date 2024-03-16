@@ -1,4 +1,4 @@
-package org.sid.bankaccountservice.entities;
+package org.bdcc.bankaccountservice.entities;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;

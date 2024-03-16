@@ -1,8 +1,8 @@
-package org.sid.bankaccountservice.mappers;
+package org.bdcc.bankaccountservice.mappers;
 
-import org.sid.bankaccountservice.dto.BankAccountRequestDTO;
-import org.sid.bankaccountservice.dto.BankAccountResponseDTO;
-import org.sid.bankaccountservice.entities.BankAccount;
+import org.bdcc.bankaccountservice.entities.BankAccount;
+import org.bdcc.bankaccountservice.dto.BankAccountRequestDTO;
+import org.bdcc.bankaccountservice.dto.BankAccountResponseDTO;
 
 public interface AccountMapper {
     BankAccount formBankAccountRequestDTO(BankAccountRequestDTO bankAccountRequestDTO);

@@ -1,11 +1,11 @@
-package org.sid.bankaccountservice.dto;
+package org.bdcc.bankaccountservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.sid.bankaccountservice.entities.Customer;
-import org.sid.bankaccountservice.enums.AccountType;
+import org.bdcc.bankaccountservice.enums.AccountType;
+import org.bdcc.bankaccountservice.entities.Customer;
 
 import java.util.Date;
 @Data @NoArgsConstructor @AllArgsConstructor @Builder

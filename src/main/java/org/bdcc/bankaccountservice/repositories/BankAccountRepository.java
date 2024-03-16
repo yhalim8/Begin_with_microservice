@@ -1,7 +1,7 @@
-package org.sid.bankaccountservice.repositories;
+package org.bdcc.bankaccountservice.repositories;
 
-import org.sid.bankaccountservice.entities.BankAccount;
-import org.sid.bankaccountservice.enums.AccountType;
+import org.bdcc.bankaccountservice.entities.BankAccount;
+import org.bdcc.bankaccountservice.enums.AccountType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;

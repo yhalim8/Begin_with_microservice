@@ -1,6 +1,6 @@
-package org.sid.bankaccountservice.entities;
+package org.bdcc.bankaccountservice.entities;
 
-import org.sid.bankaccountservice.enums.AccountType;
+import org.bdcc.bankaccountservice.enums.AccountType;
 import org.springframework.data.rest.core.config.Projection;
 
 @Projection(name = "p1", types = BankAccount.class)

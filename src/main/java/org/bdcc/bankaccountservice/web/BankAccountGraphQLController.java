@@ -1,13 +1,11 @@
-package org.sid.bankaccountservice.web;
+package org.bdcc.bankaccountservice.web;
 
-import org.sid.bankaccountservice.dto.BankAccountRequestDTO;
-import org.sid.bankaccountservice.dto.BankAccountResponseDTO;
-import org.sid.bankaccountservice.entities.BankAccount;
-import org.sid.bankaccountservice.entities.Customer;
-import org.sid.bankaccountservice.exceptions.BankAccountNotFoundException;
-import org.sid.bankaccountservice.repositories.BankAccountRepository;
-import org.sid.bankaccountservice.repositories.CustomerRepository;
-import org.sid.bankaccountservice.service.AccountService;
+import org.bdcc.bankaccountservice.service.AccountService;
+import org.bdcc.bankaccountservice.dto.BankAccountRequestDTO;
+import org.bdcc.bankaccountservice.dto.BankAccountResponseDTO;
+import org.bdcc.bankaccountservice.entities.Customer;
+import org.bdcc.bankaccountservice.exceptions.BankAccountNotFoundException;
+import org.bdcc.bankaccountservice.repositories.CustomerRepository;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;
 import org.springframework.graphql.data.method.annotation.QueryMapping;

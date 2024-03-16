@@ -1,8 +1,8 @@
-package org.sid.bankaccountservice.service;
+package org.bdcc.bankaccountservice.service;
 
-import org.sid.bankaccountservice.dto.BankAccountRequestDTO;
-import org.sid.bankaccountservice.dto.BankAccountResponseDTO;
-import org.sid.bankaccountservice.exceptions.BankAccountNotFoundException;
+import org.bdcc.bankaccountservice.dto.BankAccountRequestDTO;
+import org.bdcc.bankaccountservice.dto.BankAccountResponseDTO;
+import org.bdcc.bankaccountservice.exceptions.BankAccountNotFoundException;
 
 import java.util.List;
 

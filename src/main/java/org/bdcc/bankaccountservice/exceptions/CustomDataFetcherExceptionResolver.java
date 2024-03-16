@@ -1,4 +1,4 @@
-package org.sid.bankaccountservice.exceptions;
+package org.bdcc.bankaccountservice.exceptions;
 
 import graphql.ErrorClassification;
 import graphql.GraphQLError;
